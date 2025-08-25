@@ -3,6 +3,7 @@
 
 html {
   box-sizing: border-box;
+  font-family: "Roboto";
 }
 
 *,
@@ -41,6 +42,7 @@ a {
 
 .hero {
   margin: 60px 0;
+  max-height: 400px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -85,3 +87,50 @@ button {
 }
 
 
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards img {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 15px;
+  border: solid 3px #3882F6;
+}
+
+.card {
+  max-width: 200px;
+}
+
+
+.citation {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  padding: 150px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.author {
+  align-self: flex-end;
+  font-size: 36px;
+  color: #1F2937;
+}
