@@ -134,3 +134,33 @@ button {
   font-size: 36px;
   color: #1F2937;
 }
+
+.cta {
+  color: #E5E7EB;
+  background-color: #3882F6;
+  padding: 30px 0px;
+  margin: 100px; 
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cta p {
+  font-weight: lighter;
+  margin: 5px 0 ;
+}
+
+.cta button {
+  border-color: #E5E7EB;
+  border-style:solid;
+}
+
+footer p{
+  background-color: #1F2937;
+  color: #E5E7EB;
+  margin: 0;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+}
